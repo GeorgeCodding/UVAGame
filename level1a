@@ -1,0 +1,12 @@
+Level1a.png
+STARTINGLINE 50,200,100,100,-1,portal.gif
+WALL 0,500,1280,220,grassfloor.png
+WALL 200,350,100,150,castle.png
+0 0,350,500
+1 0,320,500
+0 0,750,500
+1 0,800,500
+WALL 425,250,100,100,grassblock.png
+WALL 740,250,100,100,grassblock.png
+WALL 1150,350,100,150,castle.png
+FINISHLINE 1150,250,100,100,1,portal.gif
