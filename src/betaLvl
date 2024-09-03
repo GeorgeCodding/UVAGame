@@ -1,0 +1,11 @@
+lvl1.png
+GROUND 0,600,600,swan.jpg //x1,x2,y1,color coords x1>x2, y1>y2, image
+GROUND 600,800,400,swan.jpg
+WALL 250,200,200,300,swan.jpg //x1,y1,width,height,image
+WALL 500,500,100,100,swan.jpg
+WALL 600,500,300,200,swan.jpg
+HORIZONTALSPIKE 600,500,300,0 /x1,y1,width,imageNumber
+GROUND 900,1100,450,swan.jpg
+0 0,600,400 //character Image number, xCoord, yCoord, bulletImaeNum(if shooting enemy)
+1 0,500,400
+FINISHLINE 1000,450,150,50,FinishLine.png //xCoord, yCoord, width, height

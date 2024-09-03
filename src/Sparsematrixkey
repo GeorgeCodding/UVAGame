@@ -1,0 +1,22 @@
+SPARSE MATRIX KEY
+"PLAYER
+"GROUND"(the integer of where it is in the arraylist")
+"OBSTACLE"
+
+BYTE ARRAY
+0 = nothing
+1 & 2 = wall & ground
+3 = obstacle
+4 = finishline
+5 = starting line
+6 = entity
+
+
+
+ENTITIES
+0 = StationaryHitting
+1 = Stationary Shooting
+
+
+PROJECTILES
+0 = bullet
