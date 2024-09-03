@@ -1,0 +1,9 @@
+dormBackground2.png
+Coords 100,300
+WALL 0,349,212,90,blank.image
+WALL 211,438,140,300,blank.image
+WALL 348,575,476,20,blank.image
+WALL 824,492,357,60,blank.image
+WALL 1180,518,35,145,blank.image
+WALL 1212,597,68,50,blank.image
+FINISHLINE 950,400,128,98,1,Computer.png

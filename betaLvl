@@ -1,0 +1,12 @@
+gamebg.png
+GROUND 0,600,600,swan.jpg //(x1,x2,y1,color coords x1>x2, y1>y2, image
+GROUND 500,750,400,swan.jpg
+WALL 50,200,350,200,swan.jpg //(x1,y1,width,height,color,image
+WALL 500,500,100,100,swan.jpg
+WALL 600,500,300,200,swan.jpg
+HORIZONTALSPIKE 700,500,8,HorizontalSpikes.png //(x1,y1,numspikes
+GROUND 900,1100,450,dirtblock.png
+1 0,550,400 //(character Image number, xCoord, yCoord
+0 0,350,500
+FINISHLINE 1000,450,150,50,FinishLine.png //(xCoord, yCoord, width, height)
+wow this is easy.
