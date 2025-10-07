@@ -5,7 +5,7 @@ import javax.swing.ImageIcon;
 
 public class Bullet extends Projectile
 {
-	private String[] imageNames = {"football.png"};
+	private String[] imageNames = {"images/football.png"};
 	private ImageIcon image;
 	private final int speed = 5;
 	private hitbox[] w;

@@ -1,0 +1,12 @@
+images/level1b.png
+STARTINGLINE 0,150,100,100,-1,images/portal.gif
+WALL 0,350,150,100,images/horizontalwalllvl2.gif
+WALL 300,350,150,100,images/horizontalwalllvl2.gif
+WALL 600,350,150,100,images/horizontalwalllvl2.gif
+WALL 0,600,1280,120,images/grassfloor.png
+WALL 900,359,150,100,images/horizontalwalllvl2.gif
+WALL 600,150,150,100,images/horizontalwalllvl2.gif
+FINISHLINE 1100,250,100,100,1,images/portal.gif
+1 0,600,150
+1 0,710,150
+HORIZONTALSPIKE 0,600,160,images/HorizontalSpikes.png

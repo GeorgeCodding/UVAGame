@@ -26,8 +26,8 @@ public class stationaryShootingEntity extends Entity{
 	private boolean change;
 	private byte bulletImageNum;
 	private String[][] images = {                              // the images of the dummy
-			{"attackgunleft1.gif","attackgunright1.gif","attackgunleft2.gif","attackgunright2.gif"},
-			{"littleEnemyFootballPlayerLeft1.png","littleEnemyFootballPlayerRight1.png","littleEnemyFootballPlayerLeft2.png","littleEnemyFootballPlayerRight2.png"}
+			{"images/attackgunleft1.gif","images/attackgunright1.gif","images/attackgunleft2.gif","images/attackgunright2.gif"},
+			{"images/littleEnemyFootballPlayerLeft1.png","images/littleEnemyFootballPlayerRight1.png","images/littleEnemyFootballPlayerLeft2.png","images/littleEnemyFootballPlayerRight2.png"}
 	};
 	public stationaryShootingEntity(int xCoord1, int yCoord, byte imageNum,byte bIN) throws IOException {
 		super(xCoord1, yCoord, enemyNumber,-2);

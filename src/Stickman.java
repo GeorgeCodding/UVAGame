@@ -52,12 +52,12 @@ public class Stickman{
 	private final ImageIcon midJumpLeft;
 	private hitbox[] currentHitboxes;
 	private hitbox[] swordHitboxes;
-	private ImageIcon[] attackLeft1 = {new ImageIcon("PML1AA.gif"),new ImageIcon("PML2AA.gif"),new ImageIcon("PML3AA.gif"), new ImageIcon("PML3AA.gif")};
-	private ImageIcon[] attackLeft2 = {new ImageIcon("PML1AB.gif"),new ImageIcon("PML2AB.gif"),new ImageIcon("PML2AB.gif"), new ImageIcon("PML3AB.gif")};
-	private ImageIcon[] attackLeft3 = {new ImageIcon("PML1AC.gif"),new ImageIcon("PML2AC.gif"), new ImageIcon("PML2AC.gif"), new ImageIcon("PML3AC.gif")};
-	private ImageIcon[] attackRight1 = {new ImageIcon("PMR1AA.gif"),new ImageIcon("PMR2AA.gif"),new ImageIcon("PMR2AA.gif"), new ImageIcon("PMR3AA.gif")};
-	private ImageIcon[] attackRight2 = {new ImageIcon("PMR1AB.gif"),new ImageIcon("PMR2AB.gif"), new ImageIcon("PMR2AB.gif"), new ImageIcon("PMR3AB.gif")};
-	private ImageIcon[] attackRight3 = {new ImageIcon("PMR1AC.gif"),new ImageIcon("PMR2AC.gif"), new ImageIcon("PMR2AC.gif"), new ImageIcon("PMR3AC.gif")};
+	private ImageIcon[] attackLeft1 = {new ImageIcon("images/PML1AA.gif"),new ImageIcon("images/PML2AA.gif"),new ImageIcon("images/PML3AA.gif"), new ImageIcon("images/PML3AA.gif")};
+	private ImageIcon[] attackLeft2 = {new ImageIcon("images/PML1AB.gif"),new ImageIcon("images/PML2AB.gif"),new ImageIcon("images/PML2AB.gif"), new ImageIcon("images/PML3AB.gif")};
+	private ImageIcon[] attackLeft3 = {new ImageIcon("images/PML1AC.gif"),new ImageIcon("images/PML2AC.gif"), new ImageIcon("images/PML2AC.gif"), new ImageIcon("images/PML3AC.gif")};
+	private ImageIcon[] attackRight1 = {new ImageIcon("images/PMR1AA.gif"),new ImageIcon("images/PMR2AA.gif"),new ImageIcon("images/PMR2AA.gif"), new ImageIcon("images/PMR3AA.gif")};
+	private ImageIcon[] attackRight2 = {new ImageIcon("images/PMR1AB.gif"),new ImageIcon("images/PMR2AB.gif"), new ImageIcon("images/PMR2AB.gif"), new ImageIcon("images/PMR3AB.gif")};
+	private ImageIcon[] attackRight3 = {new ImageIcon("images/PMR1AC.gif"),new ImageIcon("images/PMR2AC.gif"), new ImageIcon("images/PMR2AC.gif"), new ImageIcon("images/PMR3AC.gif")};
 	private hitbox[] attackLeftHitboxes1 = {new hitbox(29.6,61,0)};//15.4
 	private hitbox[] attackLeftHitboxes2 = {new hitbox(19.25,51.4,20),new hitbox(31.5,50.1,17)};
 	private hitbox[] attackLeftHitboxes3 = {new hitbox(15,40,20)};
@@ -68,21 +68,21 @@ public class Stickman{
 			new hitbox(11.5,9,8.5), new hitbox(28.5,9,8.5)};
 	private ArrayList<hitbox[]> attackingHitboxes = new ArrayList<hitbox[]>();
 	private int currentAttackHitboxNumber = 0;
-	private ImageIcon[] runBackwardsAnimation = { new ImageIcon("runLeft1.png"), new ImageIcon("runLeft2.png"),
-			new ImageIcon("runLeft3.png"), new ImageIcon("runLeft2.png") };
-	private ImageIcon[] runForwardsAnimation = { new ImageIcon("runRight1.png"), new ImageIcon("runRight2.png"),
-			new ImageIcon("runRight3.png"), new ImageIcon("runRight2.png") };
+	private ImageIcon[] runBackwardsAnimation = { new ImageIcon("images/runLeft1.png"), new ImageIcon("images/runLeft2.png"),
+			new ImageIcon("images/runLeft3.png"), new ImageIcon("images/runLeft2.png") };
+	private ImageIcon[] runForwardsAnimation = { new ImageIcon("images/runRight1.png"), new ImageIcon("images/runRight2.png"),
+			new ImageIcon("images/runRight3.png"), new ImageIcon("images/runRight2.png") };
 	private int runAnimationState;
 
 	Stickman(int xCoord, int yCoord) throws IOException {
 		xC = xCoord;
 		yC = yCoord;
-		forwardFacingImage = new ImageIcon("standRight.png");
-		backwardsFacingImage = new ImageIcon("standLeft1.png");
-		inAirRight = new ImageIcon("runRight1.png");
-		inAirLeft = new ImageIcon("runLeft1.png");
-		midJumpRight = new ImageIcon("standRight.png");
-		midJumpLeft = new ImageIcon("standLeft1.png");
+		forwardFacingImage = new ImageIcon("images/standRight.png");
+		backwardsFacingImage = new ImageIcon("images/standLeft1.png");
+		inAirRight = new ImageIcon("images/runRight1.png");
+		inAirLeft = new ImageIcon("images/runLeft1.png");
+		midJumpRight = new ImageIcon("images/standRight.png");
+		midJumpLeft = new ImageIcon("images/standLeft1.png");
 		xLength = standingStillWidth;
 		yLength = standingStillHeight;
 		movingState = 0;

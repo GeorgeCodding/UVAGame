@@ -1,3 +1,4 @@
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -36,7 +37,7 @@ public class gameScreen extends JFrame implements ActionListener, MouseListener,
 	private Levels lvl;
 	private int timeAvailable = 0;
 	private boolean timerStarted = false;
-	private final String[] levelsNames = {"OrientationRoom", "ClassSelectionRoom","clubFair", "sportsClub1", "sportsClub2", "sportsClub3","serviceClub1","serviceClub2","activitiesSpot","gym1"};
+	private final String[] levelsNames = {"images/OrientationRoom","images/ClassSelectionRoom","images/clubFair", "images/sportsClub1", "images/sportsClub2", "images/sportsClub3","images/serviceClub1","images/serviceClub2","images/activitiesSpot","images/gym1"};
 	boolean onScores;
 
 	public gameScreen() throws IOException {
@@ -51,7 +52,7 @@ public class gameScreen extends JFrame implements ActionListener, MouseListener,
 		this.setSize(SCREEN_X_SIZE, SCREEN_Y_SIZE);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setTitle("Stickman: Legend of the Bat");
-		ImageIcon image = new ImageIcon("Stickman.png");
+		ImageIcon image = new ImageIcon("images/swan.png");
 		this.setIconImage(image.getImage());
 		this.add(lvl);
 		lvl.add(timeLabel);

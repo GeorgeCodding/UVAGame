@@ -19,8 +19,9 @@ public class movingHittingEntity extends Entity
     private boolean isMovingLeft = false;
     private boolean isMovingRight = false;
     private String[][] images = { // the images of the dummy
-	    { "attack1left.gif", "attack2left.gif", "attack3left.gif", "attack4left.gif", "attack1right.gif",
-		    "attack2right.gif", "attack3right.gif", "attack4right.gif" } };
+	    { "images/attack1left.gif", "images/attack2left.gif", "images/attack3left.gif", "images/attack4left.gif", "images/attack1right.gif",
+		    "images/attack2right.gif", "images/attack3right.gif", "images/attack4right.gif" }
+		    };
     private boolean change;
 
     public movingHittingEntity(int xCoord1, int yCoord, int patrolDistance, byte imageNum) throws IOException

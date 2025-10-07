@@ -1,0 +1,17 @@
+images/classSelectionRoom.png
+Coords 350,160
+WALL 0,0,1280,30,bi.png
+WALL 227,188,294,149,blankimage.png
+WALL 773,188,306,148,blankimage.png
+WALL 0,694,1280,20,blankimage.png
+WALL 569,495,167,195,blankimage.png
+WALL 553,502,20,189,blankimage.png
+WALL 321,610,74,81,blankimage.png
+WALL 48,497,167,196,blankimage.png
+WALL 41,503,17,200,blankimage.png
+WALL 846,609,72,82,bI.png
+WALL 1050,503,25,199,bI.png
+WALL 1059,496,169,195,bI.png
+FINISHLINE 1109,473,81,81,1,bi.png
+FINISHLINE 100,465,81,81,1,bi.png
+FINISHLINE 609,469,81,81,1,bi.png

@@ -90,17 +90,17 @@ public class Levels extends JPanel
     private Image startScreen;// the image of the start screen
     private Image Gear;// Image for gear icon
     private Image sky;// background for level 1
-    private final Image fullHeart = new ImageIcon("fullheart.png").getImage();
-    private final Image emptyHeart = new ImageIcon("emptyheart.png").getImage();
+    private final Image fullHeart = new ImageIcon("images/fullheart.png").getImage();
+    private final Image emptyHeart = new ImageIcon("images/emptyheart.png").getImage();
     private boolean needToBeReset;
     private ArrayList<Point> bulletImagePoints;
 
     public Levels(Map m, int startingSide) throws IOException
 	{
 	this.setPreferredSize(new Dimension(SCREEN_X_SIZE, SCREEN_Y_SIZE));
-	startScreen = new ImageIcon("MainMenuScreen.png").getImage();
+	startScreen = new ImageIcon("images/MainMenuScreen.png").getImage();
 	sky = m.getBackgroundImage().getImage();
-	Gear = new ImageIcon("Gear Icon.png").getImage();
+	Gear = new ImageIcon("images/Gear Icon.png").getImage();
 	jump = false;
 	mRight = false;
 	mLeft = false;

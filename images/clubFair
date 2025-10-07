@@ -1,0 +1,12 @@
+images/clubFair.png
+Coords 650,300
+WALL 589,338,123,120,bI.png
+WALL 489,386,107,73,bi.png
+WALL 712,386,95,74,bi.png
+WALL 476,601,340,30,bi.png
+WALL 0,630,1280,30,bi.png
+FINISHLINE 1060,71,166,146,4,bi.png //SERVICECLUB
+FINISHLINE 1068,469,163,161,0,bi.png //fraternal
+FINISHLINE 49,491,162,139,1,bi.png //sports and fitness
+FINISHLINE 50,74,159,147,0,bi.png //arts
+FINISHLINE 512,0,231,97,6,images/explore!!!.png //next stage

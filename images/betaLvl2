@@ -1,0 +1,6 @@
+images/gamebg.png
+GROUND 100,600,600,swan.jpg //(x1,x2,y1 x1>x2, y1>y2, image
+WALL 350,500,100,400,swan.jpg //(x1,y1,width,height,image
+STARTINGLINE 200,100,10,50,FinishLine.png
+FINISHLINE 1000,450,150,50,FinishLine.png
+WALL 100,100,500,500,Luke.jpeg
